@@ -7,5 +7,6 @@ vim.keymap.set('n', '<leader>fb', telescope.buffers, {})
 vim.keymap.set('n', '<leader>fh', telescope.help_tags, {})
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
 vim.keymap.set('n', '<leader>gf', telescope.git_files, {})
-
+vim.keymap.set('n', '<leader>w', vim.cmd.w)
+vim.keymap.set('n', '<leader>q', vim.cmd.q)
 
