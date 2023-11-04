@@ -9,6 +9,7 @@ local plugins = {
   { 'williamboman/mason.nvim', opts = { ensure_installed = { "gopls" } } },
   { 'ellisonleao/gruvbox.nvim', priority = 1000 , config = true},
   { 'neovim/nvim-lspconfig' },
-  { 'nvim-treesitter/nvim-treesitter', build = 'TSUpdate' }
+  { 'nvim-treesitter/nvim-treesitter', build = 'TSUpdate' },
 }
+
 require("lazy").setup(plugins)
